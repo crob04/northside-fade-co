@@ -1,0 +1,175 @@
+[
+  {
+    "slot": "hero",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/hero.jpg",
+    "source": "pexels",
+    "source_url": "https://images.pexels.com/photos/7697696/pexels-photo-7697696.jpeg",
+    "page_url": "https://www.pexels.com/photo/7697696/",
+    "width": 1920,
+    "height": 1280,
+    "tags": "barber, scissors, haircut, fade, modern barbershop",
+    "size_bytes": 200862,
+    "queries_tried": [
+      "pixabay:modern barbershop interior",
+      "pexels:barber cutting hair"
+    ],
+    "validated": true,
+    "visual_check": "barber with scissors cutting client's fade — professional"
+  },
+  {
+    "slot": "services-fade",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/services-fade.jpg",
+    "source": "pixabay",
+    "source_url": "https://cdn.pixabay.com/photo/2017/08/02/23/56/barber-shop-2573979_1280.jpg",
+    "page_url": "https://pixabay.com/photos/barbershop-fashion-2573979/",
+    "width": 1280,
+    "height": 853,
+    "tags": "barber shop, fade, skin fade, curly hair, line-up",
+    "size_bytes": 219217,
+    "queries_tried": [
+      "pixabay:fade haircut",
+      "pixabay:high skin fade"
+    ],
+    "validated": true,
+    "visual_check": "profile view of young man with high skin fade, curly top, sharp line-up"
+  },
+  {
+    "slot": "services-taper",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/services-taper.jpg",
+    "source": "pexels",
+    "source_url": "https://images.pexels.com/photos/4625632/pexels-photo-4625632.jpeg",
+    "page_url": "https://www.pexels.com/photo/4625632/",
+    "width": 4000,
+    "height": 6000,
+    "tags": "barber, clippers, Wahl Magic Clip, nape, taper, industrial barbershop",
+    "size_bytes": 1902811,
+    "queries_tried": [
+      "pixabay:taper haircut",
+      "pexels:barber clippers fade"
+    ],
+    "validated": true,
+    "visual_check": "behind-the-shoulder barber using Wahl cordless clipper on client's nape",
+    "notes": "Wahl Magic Clip branding visible on clipper — professional product identification, not watermark."
+  },
+  {
+    "slot": "services-beard",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/services-beard.jpg",
+    "source": "pixabay",
+    "source_url": "https://cdn.pixabay.com/photo/2018/08/04/12/27/people-3584019_1280.jpg",
+    "page_url": "https://pixabay.com/photos/people-shaving-barber-3584019/",
+    "width": 1280,
+    "height": 853,
+    "tags": "hot towel shave, straight razor, beard trim, premium service",
+    "size_bytes": 183430,
+    "queries_tried": [
+      "pixabay:beard trim barber",
+      "pixabay:hot towel shave"
+    ],
+    "validated": true,
+    "visual_check": "close-up of hot towel shave in progress with straight razor (red handle)"
+  },
+  {
+    "slot": "about-shop",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/about-shop.jpg",
+    "source": "pixabay",
+    "source_url": "https://cdn.pixabay.com/photo/2021/07/05/20/17/barber-shop-6391439_1280.jpg",
+    "page_url": "https://pixabay.com/photos/barber-shop-interior-6391439/",
+    "width": 1280,
+    "height": 853,
+    "tags": "barbershop interior, barber chair, mirror, modern",
+    "size_bytes": 187615,
+    "queries_tried": [
+      "pixabay:modern barbershop",
+      "pixabay:barbershop interior"
+    ],
+    "validated": true,
+    "visual_check": "modern barbershop interior — barber chair, mirrors, wall decor",
+    "notes": "Period-accurate vintage advertising visible as wall decor inside the scene (Brylcreem, Ave Barber Supply Co.) — not overlays."
+  },
+  {
+    "slot": "about-barber",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/about-barber.jpg",
+    "source": "pexels",
+    "source_url": "https://images.pexels.com/photos/8552627/pexels-photo-8552627.jpeg",
+    "page_url": "https://www.pexels.com/photo/8552627/",
+    "width": 3264,
+    "height": 4896,
+    "tags": "barber portrait, denim apron, tattoos, modern shop",
+    "size_bytes": 384405,
+    "queries_tried": [
+      "pixabay:barber portrait",
+      "pixels:barber selfie",
+      "pexels:barber professional portrait"
+    ],
+    "validated": true,
+    "visual_check": "confident barber in denim work apron with visible tattoos, dark barbershop interior with classic barber chair"
+  },
+  {
+    "slot": "about-detail",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/about-detail.jpg",
+    "source": "pixabay",
+    "source_url": "https://cdn.pixabay.com/photo/2021/02/13/15/26/electric-razor-6009769_1280.jpg",
+    "page_url": "https://pixabay.com/photos/barber-electric-razor-6009769/",
+    "width": 1280,
+    "height": 853,
+    "tags": "barber at work, electric clippers, fade in progress",
+    "size_bytes": 193869,
+    "queries_tried": [
+      "pixabay:barber working",
+      "pixabay:barber tools"
+    ],
+    "validated": true,
+    "visual_check": "older barber using electric clippers on young client's fade"
+  },
+  {
+    "slot": "gallery-1",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/gallery-1.jpg",
+    "source": "pexels",
+    "source_url": "https://images.pexels.com/photos/12706272/pexels-photo-12706272.jpeg",
+    "page_url": "https://www.pexels.com/photo/12706272/",
+    "width": 4000,
+    "height": 6000,
+    "tags": "men's fade, skin fade, slicked top, hard part, lined beard, finished cut",
+    "size_bytes": 816027,
+    "queries_tried": [
+      "pixabay:modern haircut style",
+      "pexels:men fade haircut profile"
+    ],
+    "validated": true,
+    "visual_check": "profile view, high skin fade, slicked-back voluminous top, lined-up beard"
+  },
+  {
+    "slot": "gallery-2",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/gallery-2.jpg",
+    "source": "pixabay",
+    "source_url": "https://cdn.pixabay.com/photo/2020/04/09/20/30/barber-5022955_1280.jpg",
+    "page_url": "https://pixabay.com/photos/barber-shave-hot-towel-5022955/",
+    "width": 1280,
+    "height": 853,
+    "tags": "hot towel, shave, black and white, barber shop, classic",
+    "size_bytes": 327175,
+    "queries_tried": [
+      "pixabay:hot towel shave close up"
+    ],
+    "validated": true,
+    "visual_check": "B&W shot of barber's hands wrapping hot towel around client's face"
+  },
+  {
+    "slot": "gallery-3",
+    "local_path": "/opt/data/hermes-orchestrator/northside-fade-co/research/images/gallery-3.jpg",
+    "source": "pexels",
+    "source_url": "https://images.pexels.com/photos/4625649/pexels-photo-4625649.jpeg",
+    "page_url": "https://www.pexels.com/photo/4625649/",
+    "width": 4000,
+    "height": 6000,
+    "tags": "barbershop interior, vintage, barber cutting pompadour, leather, Brylcreem ad",
+    "size_bytes": 272129,
+    "queries_tried": [
+      "pixabay:barbershop waiting area",
+      "pexels:vintage barbershop interior"
+    ],
+    "validated": true,
+    "visual_check": "interior shot, barber cutting client's pompadour, vintage decor (Brylcreem, Ave Barber Supply Co. on walls)",
+    "notes": "Period-accurate vintage advertising visible as wall decor — not overlays."
+  }
+]
