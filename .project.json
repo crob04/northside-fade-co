@@ -1,0 +1,18 @@
+{
+  "name": "Northside Fade Co.",
+  "slug": "northside-fade-co",
+  "kanban_task_id": "t_f523b599",
+  "created": "2026-07-04",
+  "type": "website-build",
+  "status": "in-progress",
+  "github": {
+    "owner": "crob04",
+    "repo": "northside-fade-co",
+    "url": "https://github.com/crob04/northside-fade-co"
+  },
+  "deploy": {
+    "target": "vercel",
+    "domain": "<assigned-by-vercel>.vercel.app",
+    "custom_domain": null
+  }
+}

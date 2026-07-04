@@ -1,0 +1,60 @@
+{
+  "business_name": "",
+  "owner_or_contact_name": "",
+  "address": "",
+  "hours": {
+    "monday": "",
+    "tuesday": "",
+    "wednesday": "",
+    "thursday": "",
+    "friday": "",
+    "saturday": "",
+    "sunday": ""
+  },
+  "services": [
+    {
+      "name": "",
+      "price": "",
+      "duration": "",
+      "inclusions": []
+    }
+  ],
+  "policies": {
+    "appointment_policy": "",
+    "cancellation_policy": "",
+    "walk_in_policy": "",
+    "kids_policy": ""
+  },
+  "cta_primary": {
+    "label": "",
+    "destination": ""
+  },
+  "cta_secondary": {
+    "label": "",
+    "destination": ""
+  },
+  "reviews": [
+    {
+      "quote": "",
+      "author": "",
+      "service": "",
+      "rating": "",
+      "date": ""
+    }
+  ],
+  "differentiators": [
+    "",
+    "",
+    ""
+  ],
+  "audience_vocabulary": [
+    "",
+    "",
+    ""
+  ],
+  "objections": [
+    "",
+    "",
+    ""
+  ]
+}
