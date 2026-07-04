@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: theme("fontFamily.body");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Smooth theme transitions — but not during initial paint (handled by Tailwind tokens). */
+  }
+
+  body {
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: theme("fontFamily.display");
+    letter-spacing: -0.01em;
+  }
+
+  /* F-19: motion durations 150–250ms with ease-out / ease-in-out only.
+     Tailwind transition-colors / transition-shadow already do this. */
+  /* F-20: prefers-reduced-motion disables all non-essential motion. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* F-13 / COPY-01: Scrub helper. The canonical 24 + brand-additive forbidden
+     phrases never appear in component copy. Used by the canonical scrub script
+     in scripts/scrub-forbidden.sh. This block intentionally adds no class. */
+
+  /* Visual rhythm helper — sections separated by brand hairline divider when
+     adjacent sections share a spacing value (per VISUAL_SPEC C.7). */
+  .section-divider {
+    @apply border-t border-brand-border dark:border-brand-dark-border;
+  }
+}
